@@ -2529,3 +2529,44 @@ section,
     margin-top: 30px;
   }
 }
+
+/*--------------------------------------------------------------
+# Blog Section
+--------------------------------------------------------------*/
+
+.card-body {
+  color: var(--default-color);
+  padding: 20px;
+  background-color: var(--surface-color) !important;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.card-body:hover {
+  transform: translateY(-5px);
+}
+
+.card-body .text-muted {
+  color: color-mix(in srgb, var(--default-color), transparent 50%) !important;
+}
+
+/*--------------------------------------------------------------
+# Blog Details Section
+--------------------------------------------------------------*/
+
+.blog-details .page-title .breadcrumb-item .active {
+  color: var(--accent-color) !important;
+}
+
+.blog-details .page-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 1rem;
+}
+
+.blog-details .page-title, .py-5 {
+  padding-top: 5rem !important;
+  padding-bottom: 0rem !important;
+}
