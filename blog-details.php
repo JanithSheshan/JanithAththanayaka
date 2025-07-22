@@ -55,7 +55,7 @@ $category = $post['category'];
           <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
           <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
           <li class="dropdown">
-            <a href="#"><i class="bi bi-menu-button navicon"></i> <span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <a href="#" class="active"><i class="bi bi-menu-button navicon"></i> <span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="assets/pdf/Janith Aththanayaka CV resume.pdf" download>Download CV</a></li>
               <li><a href="https://g.dev/janithaththanayaka" target="_blank">Google Developer</a></li>
